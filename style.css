@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.container {
+    min-height: 500px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    font-size: 22px;
+    padding: 5px;
+}
+
+button {
+    padding: 20px;
+    width: 100px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.lower {
+    display: flex;
+    width: 500px;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
