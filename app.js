@@ -1,6 +1,5 @@
 const input = document.getElementById('main-input')
 const button = document.getElementById('add-list')
-const buttonDelete = document.getElementById('delete')
 const listUl = document.getElementById('list-ul')
 
 button.addEventListener('click', () =>{
